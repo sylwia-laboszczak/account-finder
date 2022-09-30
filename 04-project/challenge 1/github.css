@@ -1,0 +1,100 @@
+html,
+body {
+    height: 100%;
+}
+
+.gradient {
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: linear-gradient(to right bottom, #8250df 40%, rgb(194, 122, 229) 60%);
+
+}
+
+.searchBar {
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+
+}
+
+
+.infoContainer {
+
+    color: white;
+}
+
+.nameDiv {
+    font-weight: 900;
+    display: flex;
+    flex-direction: row;
+}
+
+#userGitName {
+
+    color: white;
+    background-color: #321960 !important;
+
+}
+
+.followersDiv {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 10px;
+}
+
+.followersDivChild {
+
+    background-color: #6623e3;
+    padding: 5px;
+    border-radius: 5px;
+
+
+}
+
+ul.reposDiv {
+
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+.reposDiv li {
+    background-color: #321960;
+
+    font-size: 8px;
+    padding: 5px;
+    border-radius: 5px;
+    margin: 5px;
+}
+
+.reposDiv li a {
+    color: white;
+    text-decoration: none;
+}
+
+.photoBox {
+
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin: 10px;
+    border: 7px solid #220f45;
+
+}
+
+#contentBox {
+    padding: 20px;
+    display: flex;
+    background-color: #6623e3;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 30px;
+}
